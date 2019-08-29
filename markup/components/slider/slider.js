@@ -5,7 +5,9 @@ $(document).ready(function(){
   $sliderItems.slick({
     slidesToShow: 1,
     arrows: false,
-    dots: true
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 1000
   })
 
 })
