@@ -4,6 +4,7 @@ html(class="no-js", lang="ru")
   include ../components/head/head
   include ../components/header/header
   include ../components/slider/slider
+  include ../components/custom/custom
   head
     +head(head.defaults)
   body.page
@@ -12,6 +13,8 @@ html(class="no-js", lang="ru")
     +header()
 
     +slider()
+
+    +custom()
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
     script svg4everybody();
