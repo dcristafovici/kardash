@@ -1,0 +1,110 @@
+.footer
+  &-top
+    padding 40px 0
+    border-top 1px solid #D4D1D1;
+    border-bottom 1px solid #D4D1D1;
+  &-wrapper
+    display flex
+    justify-content space-between
+  &-left
+    width 53.54609929078014%
+    position relative
+    &::after
+      content ''
+      position absolute
+      right 0
+      height 100%
+      width 1px
+      background #D4D1D1
+      top 0
+  &-right
+    width 46.45390070921986%
+    padding-left 58px
+    box-sizing: border-box
+  &-columns
+    padding-right 15%
+    display flex
+  
+  &-column
+
+    flex: auto
+    &__name
+      color $bk
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 2px;
+      min-height: 16px
+      text-transform uppercase
+      font-family $Bold
+      margin-bottom 30px
+    ul
+      li
+        margin-bottom 15px
+        &:last-child
+          margin-bottom 0
+      a
+        font-size: 14px;
+        line-height: 26px;
+        color: #343434
+        font-family $Light
+
+
+  &-right
+    &__name
+      color $bk
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 2px;
+      text-transform uppercase
+      font-family $Bold
+      margin-bottom 35px
+
+  &-form
+    > span
+      display block
+      font-size: 15px;
+      margin-bottom 15px
+      line-height: 20px;
+      color: #343434;
+      font-family $Light
+
+    .form-row
+      &:first-child
+        margin-right 67px
+        box-sizing: border-box
+        .form-group
+          &:first-child
+            width: 71.69811320754717%
+          &:last-child
+            width: 28.30188679245283%
+
+
+.footer
+  &-bottom
+    &__wrapper
+      padding-top 20px
+      padding-bottom 20px
+      align-items center
+      display flex
+      justify-content space-between
+    .coph
+      span,
+      p
+        font-size: 14px;
+        font-family $Reg
+        line-height: 22px;
+        color: #979797;
+        display block
+      span
+        color $bk
+        margin-bottom 10px
+    
+    .dev
+      span,
+      a
+        font-size: 14px;
+        font-family $Reg
+        line-height: 22px;
+        color: #979797;
+      a
+        font-family $Bold

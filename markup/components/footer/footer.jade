@@ -1,2 +1,93 @@
 mixin footer(data)
-    footer.footer
+  footer.footer
+
+    .footer-top
+
+      .content
+
+        .footer-wrapper
+
+          .footer-left
+
+            .footer-columns
+
+              //- Footer Column
+              .footer-column
+                .footer-column__name Категории
+                ul
+                  li
+                    a(href="#") Спальня
+                  li
+                    a(href="#") Ванная
+                  li
+                    a(href="#") Детская
+                  li
+                    a(href="#") Столовая
+                  li
+                    a(href="#") Коллекции
+                  li
+                    a(href="#") Подарки
+              
+
+              //- Footer Column
+              .footer-column
+                .footer-column__name Клиентский сервис
+                ul
+                  li
+                    a(href="#") Вышивка
+                  li
+                    a(href="#") Пошив по размерам
+                  li
+                    a(href="#") Подарочный сертификат
+                  li
+                    a(href="#") Написать нам
+               
+              
+              //- Footer Column
+              .footer-column
+                .footer-column__name 
+                ul
+                  li
+                    a(href="#") Доставка и оплата
+                  li
+                    a(href="#") Политика возврата
+                  li
+                    a(href="#") Гарантия качества
+                  li
+                    a(href="#") Гид по покупкам
+               
+
+
+          .footer-right
+            .footer-right__name Присоединяйтесь к нам!
+
+            .footer-form
+              span Будьте в курсе новых поступлений, акций и распродаж.
+              
+              form.form
+                .form-row
+                  .form-group
+                    input(type="email" required placeholder="Введите ваш email")
+                  .form-group
+                    button
+                      span Подписаться 
+                
+                .form-row
+                  .form-group
+                    input(type="checkbox" checked required id='checkbox_acc')
+                    label(for="checkbox_acc") Я даю согласие на 
+                      a(href="#") обработку 
+                      | персональных данных
+
+
+    .footer-bottom
+      .content
+
+        .footer-bottom__wrapper
+
+          .coph
+            span © 2014-2019 Custom Company
+            p Здесь еще какой-нибудь текст отказа от ответственности
+          .dev
+            span Сайт сделан в студии 
+              a(href="#" target="_blank") АРТОФ
