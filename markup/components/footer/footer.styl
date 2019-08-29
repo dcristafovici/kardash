@@ -47,7 +47,19 @@
         line-height: 26px;
         color: #343434
         font-family $Light
-
+        position relative
+        &:hover
+          &::after
+            width 100%
+        &::after
+          content ''
+          position absolute
+          bottom 0
+          left 0
+          height 1px
+          background $bk
+          transition all 0.3s ease-in-out
+          width 0
 
   &-right
     &__name
