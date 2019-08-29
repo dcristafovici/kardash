@@ -1,0 +1,63 @@
+.header
+  &-top
+    border-bottom 1px solid #D4D1D1
+    box-sizing: border-box
+  &-wrapper
+    display flex
+    justify-content space-between
+    align-items center
+    height 120px
+
+    
+  &-phone
+    a
+      color $bk
+      font-size 17px
+      line-height 23px
+      font-family $Light
+  &-right
+    display flex
+    align-items center
+    justify-content flex-end
+    > div
+      margin-right 30px
+      &:last-child
+        margin-right 0
+
+  &-cart
+    position relative
+    &__value
+      min-width 14px
+      position absolute
+      right -4px
+      top -4px
+      min-height 14px
+      background #9E8B6B
+      border-radius: 50%
+      display flex
+      justify-content center
+      align-items center
+      font-size 10px
+      padding 2px 4px
+      box-sizing: border-box
+      font-family $Bold
+      color $wh
+
+
+.header-bottom
+  padding-top 19px
+  padding-bottom 14px
+nav.menu
+  ul
+    display flex
+    justify-content center
+    align-items center
+  li
+    margin-right 35px
+    &:last-child
+      margin-right 0
+    a
+      font-size 16px
+      line-height 21px
+      color $bk
+      font-family $Light
